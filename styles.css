@@ -1,0 +1,990 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.containerflui {
+    margin : 0 7%;
+}
+
+.header-container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    max-height: 85px;
+  
+}
+
+.header-logo{
+
+    display: flex;
+   
+
+}
+
+
+
+
+.header-icons-card {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    text-align: left;
+}
+
+
+.header-icon-content h5{
+    margin-bottom: 0;
+    font-weight: 400;
+    
+}
+
+.header-icon-content h4 {
+    margin-top: 2px;
+    font-weight: 600;
+
+}
+
+.header-icon-content {
+    margin-left: 10px;
+    font-size: 0.8rem;
+}
+
+.header-cards-container{
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 20px;
+    
+}
+
+.certify-img-marginleft {
+    margin-left: 30px;
+}
+
+
+/* Nav bar */
+
+nav {
+    background-color: #2ca7ed;
+    color: white;
+    display: flex;
+
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.navbar-links input {
+   
+    margin-left: 40px;
+    padding: 10px 20px;
+    background-color: rgb(251, 251, 251);
+    border: 2px solid #051e39;
+    
+
+}
+
+.navbar-links li {
+   
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 1em;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    max-height: 30px;
+
+    
+}
+
+.bar {
+    background-color: white;
+    height: 2px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+
+
+/* TItle section */
+
+
+
+
+.title-container{
+    
+    background-image: url("images/title-background.png");
+    height: 330px;
+    background-size: cover;
+    text-align: left;
+    display: flex;
+   }
+
+ .titlecontent {
+   
+   color: aliceblue;
+   max-width: 40vw;
+   margin-top: 5%;
+   font-size: 1.8rem;
+ }
+
+ .titlecontent h5 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 6.5%;
+ }
+
+ .titlecontent h1 {
+    margin-top: 0;
+    margin-bottom: 4%;    
+
+ }  
+
+ /* Title Enquire now button  */
+
+ .titlecontent button {
+    background-color:  #2ca7ed;
+    padding: 10px 15px;
+    border: 1px solid #051e39;
+    color: aliceblue;
+    font-size: 1rem;
+ }
+
+ /* scrollbar-head section */
+
+ .scrollbar-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+    height: 70px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #000;
+  
+ }
+
+ .scrollbar-head a {
+    color: #000;
+ }
+
+.firstscrollhead{
+
+    margin-left: 39px;
+}
+
+.lastscrollhead{
+    margin-right: 165px;
+}
+
+/* Scrollbar content Main first box */
+
+.overview-img{
+  
+    max-width: 550px;
+    max-height: 365px;
+
+}
+
+.overview {
+    display: flex;
+    text-align: left;
+    height: 485px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overview-content {
+    max-width: 540px ;
+}
+
+
+
+
+
+
+/* list bullets style */
+
+.ul-styles {
+    list-style: circle;
+    font-size : 23px;
+    color: #2ca7ed;
+}
+
+
+
+
+
+
+
+/* Scrollbar Hr styling */
+
+.scrollbar-hr {
+
+    border: none;
+    border-top: 1.5px dashed #2ca7ed;
+}
+
+
+
+/* rest scrollbar boxes */
+
+.overview-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    
+}
+
+.overview-list-content {
+    
+    text-align: left;
+    max-width: 780px;
+ 
+}
+
+.overview-list-content-block1{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/* scroll bar font sizes setting */
+
+.title-style-size {
+    font-weight: 600;
+   font-size: 30px;
+
+}
+
+.para-style-size {
+    font-weight: 300;
+    font-size: 1rem;
+    color: rgb(75, 74, 74);
+}
+
+.red-dot {
+    color: red;
+}
+
+/* FAQ's style settings */
+.faq-container {
+    max-width: 100%;
+    margin: 40px auto 58px;
+}
+
+.faq-item {
+    border-bottom: 1px solid rgb(152, 143, 143) ;
+    margin: 10px 0; 
+    position: relative;
+}
+
+.faq-first-item {
+    border-top:1px solid rgb(152, 143, 143) ;
+}
+
+.question {
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.question::before {
+    content: "+"; /* Initially, show a plus sign */
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #2ca7ed; /* Text color for the plus sign */
+    font-weight: bold;
+    margin-right: 10px;
+    transition: transform 0.3s;
+    
+}
+
+.question.expanded::before {
+    content: "-"; /* When expanded, show a minus sign */
+   
+}
+
+.answer {
+    display: none;
+    border-top: 2px solid #2ca7ed;
+    border-bottom: 2px solid #2ca7ed;;
+}
+
+
+.faq-q-style {
+    font-weight: 400;
+    
+}
+
+.faq-para-style {
+    
+    padding-left: 23px;
+    border-left: 2px solid #2ca7ed;
+    margin: 1.5em 0 1.5em 58px;
+}
+
+.faq-container h2 {
+    margin-bottom: 55px;
+}
+
+/* First Owl Carousel Settings */
+
+.text-card-design {
+   
+    border: 1px solid gainsboro ;
+    padding: 25px;
+   
+}
+
+.title-slider-text {
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+
+.title-slider-text h3{
+    margin: 0;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+.para-slider-text {
+    font-weight: 300;
+    font-size: 13px;
+    min-height: 110px;
+}
+
+.id-image-container {
+     
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    float: left; /* Float the image container to the left */
+    margin-right: 20px; /* Add some spacing between the image and text */
+    overflow: hidden;
+   
+}
+
+.id-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain image aspect ratio */
+}
+
+.id-info h2 {
+    font-size: 18px;
+    margin: 0 0 5px 0;
+    font-weight: 400;
+
+    
+}
+
+.id-info p {
+   
+    margin: 0;
+    font-size:12px;
+    color: cadetblue;
+    
+    
+}
+
+.id-card {
+    height: 68px;
+    display: flex;
+    align-items: center;
+}
+
+.img-card-layout {
+    height: 110px;
+    margin:13px 0;
+}
+
+.slider1-section{
+    margin: 40px 0;
+}
+
+.slider-h2 {
+    margin:auto 0 40px;
+}
+
+
+/* css for the Need Help floating box */
+.contact-now {
+    width: 350px;
+    height: 550px;
+    border: 1.5px solid lightgray;
+    border-radius: 15px;
+    position: -webkit-sticky; /* For Safari/Chrome */
+    position: sticky;
+    top: 20px;
+    margin: 70px auto;
+    
+    
+}
+
+
+.contact-now input {
+    width: 260px;
+    height: 50px;
+    margin:15px 0;
+    padding:0 20px;
+    border: 1.5px solid lightgray;
+    border-radius: 5px;
+    outline-color: #2ca7ed;
+    font-family: 'Lato', sans-serif;
+    
+    
+}
+
+
+.contact-now textarea {
+    width: 260px;
+    height: 70px;
+    margin: 15px 0;
+    border: 1.5px solid lightgray;
+    border-radius: 5px;
+    padding: 0 20px;
+    outline-color: #2ca7ed;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.contact-now button {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #2ca7ed;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;  
+}
+
+.contact-now input::placeholder {
+    color: lightgray
+}
+
+
+
+.contact-now textarea::placeholder {
+    color: lightgray;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.contact-now h3 {
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 35px;
+    color: #2ca7ed;
+    margin:15px 0 10px;
+}
+.contact-now p {
+    margin: 0 auto 10px;
+    font-weight: 400;
+    width: 300px;
+}
+
+
+
+/* top doctors container settings */
+
+.top-doc-container {
+    padding: 50px 0 70px;
+    background-color:#E9F2F7;
+}
+
+.blue-doc {
+    color: #2ca7ed;
+}
+
+.top-doctors-h3 {
+    color: red;
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0;
+    
+}
+
+.top-doctors-h2 {
+    font-size: 36px;
+    margin-top: 25px;
+}
+
+
+.docs-item {
+    padding: 20px;
+    background-color: white;
+}
+
+.docs-item img {
+    height: 250px;
+    object-fit: fill;
+}
+
+.docs-item h3 {
+    font-family: 'Merienda', cursive;
+    font-size: 23px;
+    padding-top: 20px ;
+    color: red;
+}
+
+.docs-item h4 {
+    font-size: 19px;
+    font-weight: 400;
+    margin: 8px auto;
+}
+
+.docs-item p {
+    font-weight: 400;
+    font-size: 17px;
+    color: darkgray;
+    margin: 7px auto 10px;
+   
+}
+
+
+/* Owl default navigation top margin control */
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 35px !important;
+}
+
+
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #2ca7ed !important;
+}
+
+
+
+
+/* Recommended Hospitals section  */
+
+.top-hospitals {
+    padding: 50px 0 50px;
+}
+
+.top-hospitals {
+    font-size: 22px;
+}
+
+.hospital-card {
+    
+    border: 1px dashed red ;
+    border-radius: 5px;
+}
+
+.hospital-card h2 {
+    font-size: 26px;
+    margin: 13px auto 0;
+
+}
+
+.hospital-card h3 {
+    font-family: 'Merienda', cursive; 
+    font-size: 20px;
+    color: red;
+    margin: 10px auto 14px;
+
+}
+
+.git-container {
+    background-image: url('images/last-bg.png');
+    height: 290px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #2ca7ed;
+    padding: 40px 0 40px;
+    
+}
+
+
+.git-container h3 {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    margin: 0 auto 0;
+}
+
+.git-container h2 {
+    color: white;
+    font-size: 45px;
+    margin: 25px 0;
+}
+
+.git-flx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.git-hr {
+    width: 1px;
+    height: 130px;
+    background-color: white;
+    margin: 0 25px;
+
+}
+
+.git-flx h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.git-flx button {
+    color: white;
+    background-color: #2ca7ed;
+    border-style: none;
+    padding: 21px 70px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.demo {
+    height: 150px ;
+    background-color: darkslateblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Adding media query for small screens */
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        background-color: #2ca7ed;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        position: relative;
+        top: 60px;
+        left: 0;
+        margin: 0;
+    }
+    
+    .navbar-links.active {
+        display: flex;
+    }
+    
+    .navbar-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .menu-toggle {
+        display: flex;
+        height: 30px;
+
+    }
+
+   
+    
+    .navbar-div{
+        display: block;
+
+    }
+    
+
+
+
+
+    /* Logo-mobile effects adjusment */
+
+    .certify-img-marginleft {
+        margin-left: 0 ;
+        
+    }
+
+    .header-logo{
+       
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+    
+
+    }
+    
+
+   /* Chaning flex row to column of header icons */
+   .header-cards-container {
+     
+    flex-direction: column;
+    width: 100%;
+    row-gap: 0;
+    margin: 7% auto 7% auto;
+    
+
+   }
+
+   .header-container{
+    flex-direction: column;
+    max-height: 700px;
+    margin: 10px 15px 0;
+    
+    align-items: center;
+    
+    
+   }
+
+   
+.header-icons-card {
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.header-icon-content {
+    
+flex-direction: column;
+   margin-left: 3.5vh;
+    
+}
+
+.navbar-links input {
+    margin: 0;
+}
+
+.containerflui{
+    margin: 0 15px 0;
+}
+
+
+/* css for mobile version of title section */
+
+.titlecontent {
+    font-size: 1.5rem;
+    margin-top: 4vh;
+    
+    max-width: 70vw;
+    
+}
+
+.titlecontent h5 {
+    font-size: 1rem;
+    max-width: 60vw;
+    margin-bottom: 4.5vh;
+
+}
+
+/* scrollbar head section responsive */
+
+.scrollbar-head {
+    padding: 18px 0;
+    margin: 0 15px;
+    flex-direction: column;
+    height: auto;
+    flex-flow: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-content: space-around;
+}
+
+.firstscrollhead{
+
+    margin-left: 0;
+}
+
+.lastscrollhead{
+    margin-right: 0;
+}
+
+
+
+/* Scrollbar content for overview box in  mobile styling */
+
+.overview {
+    flex-direction: column;
+    height: auto;
+    margin: 15px auto 15px;
+}
+
+.overview-img{
+    order: -1;
+    max-width: 99.6%;
+}
+
+
+.overview-list-content-block1{
+    height: auto;
+    margin: 15px auto 15px;
+
+}
+
+.overview-list{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0 ;
+
+}
+
+.title-style-size {
+    margin: 10px auto 15px;
+    text-align: center;
+    font-size: 28px;
+}
+
+.para-style-size {
+    text-align: center;
+}
+
+.para-slider-text {
+    height: auto;
+    
+}
+
+
+.scrollbar-hr {
+    margin: 0;
+}
+
+/* unordered list modbile margins off */
+
+.ul-styles {
+    margin: 0;
+    padding: 0 20px;
+}
+
+
+/* FAQ's container mobile sizing */
+
+.faq-container {
+
+    margin: 30px 0 50px;
+    text-align: center;
+}
+
+.faq-container h2 {
+    margin-bottom: 35px;
+}
+
+.question {
+    padding: 0;
+    font-size: 16px;
+}
+
+.faq-first-item {
+    margin-top: 30px;
+}
+
+.faq-para-style {
+
+    margin-left: 0;
+    padding-left: 5px;
+
+}
+
+
+/* PAtient Stories */
+
+.title-slider-text {
+    gap : 5px;
+}
+
+.text-card-design {
+    max-width: 305px;
+}
+
+
+
+/* contact now margin change */
+
+.contact-now {
+    margin: 0 auto 40px;
+ }
+
+
+ /* get in touch container background */
+
+ .git-container {
+    background-size: cover;
+    padding: 30px 0 70px;
+ }
+
+.git-flx {
+    flex-direction: column;
+    
+}
+
+
+
+
+
+
+
+
+ 
+
+  
+
+}
+
